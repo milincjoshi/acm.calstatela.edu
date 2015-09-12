@@ -6,86 +6,123 @@
   <link rel="icon" type="image/png" href="img/eagle-icon.png">
   <!--   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
 -->
+<meta name="keywords" content="Cal State LA, ACM, Computer Science, CS, Programming, Hackathon, CSULA, Cal State L.A."/>
+
 <link rel="stylesheet" href="css/bootstrap.css">
 <link rel="stylesheet" href="css/bootstrap-theme.css">
 <link rel="stylesheet" href="css/master.css">
+<link rel="stylesheet" href="css/navbar.css">
 </head>
 <body>
-  <div class="container">
 
-    <!-- Begin Navbar -->
-    <nav class="navbar navbar-default navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
-          </button>
-          <a class="navbar-brand" href="http://acm.calstatela.edu/">
-            <img alt="Brand" src="img/eagle-icon.png" class="eagle-icon">
-          </a>
-        </div>
-
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-          <ul class="nav navbar-nav">
-            <li class="active-tab"><a href="http://acm.calstatela.edu/" class="nav-link">Home<span class="sr-only">(current)</span></a></li>
-            <li><a href="pages/calendar.html">Calendar</a></li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="color: black;">Events<span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                <li><a href="pages/past_events.html">Past</a></li>
-                <li role="separator" class="divider"></li>
-                <li><a href="pages/future_events.html">Future</a></li>
-              </ul>
-            </li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="color: black;">Committees<span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                <li><a href="pages/projects_committee.html">Projects</a></li>
-                <li role="separator" class="divider"></li>
-                <li><a href="pages/web_committee.html">Web</a></li>
-                <li role="separator" class="divider"></li>
-                <li><a href="pages/publicity_fundraising_committee.html">Publicity/Fundraising</a></li>
-              </ul>
-            </li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Members<span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                <li><a href="pages/past_members.html">Past</a></li>
-                <li role="separator" class="divider"></li>
-                <li><a href="pages/present_members.html">Present</a></li>
-              </ul>
-            </li>
-            <li><a href="pages/tutoring.html">Tutoring</a></li>
-            <li><a href="pages/resources.html">Resources</a></li>
-            <li><a href="pages/sandbox.html">Sandbox</a></li>
-          </ul>
-
-          <ul class="nav navbar-nav navbar-right">
-            <li><a class="navbar-brand" href="https://www.facebook.com/acm.calstatela" target="_blank">
-              <img alt="facebook" src="img/facebook-logo.png" class="logo">
-            </a></li>
-            <li><a class="navbar-brand" href="https://instagram.com/calstatela_acm/" target="_blank">
-              <img alt="instagram" src="img/instagram-logo.png" class="logo">
-            </a></li>
-          </ul>
-        </div><!-- /.navbar-collapse -->
+  <!-- begin navbar -->
+  <nav class="navbar navbar-custom navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse" aria-expanded="false">
+          <!-- for screen readers -->
+          <span class="sr-only">Toggle navigation</span>
+          <!-- for hamburger menu icon -->
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="index.html">
+          <img alt="acm" src="img/eagle-icon.png" class="eagle-icon">
+          <!-- <img alt="acm" src="img/square_logo_gold.jpg" class="eagle-icon"> -->
+          <!-- <img alt="acm" src="img/cs_logo.gif" class="eagle-icon"> -->
+        </a>
       </div>
-    </nav><br><br><br>
-    <div class="main">
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse">
+        <ul class="nav navbar-nav">
+
+          <li class="active-tab"><a href="index.html" class="nav-link">Home<span class="sr-only">(current)</span></a></li>
+          <li><a href="pages/calendar.html">Calendar</a></li>
+      <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Committees<span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="pages/android/index.html">Android</a></li>
+          <li><a href="pages/ios/index.html">iOS</a></li>
+          <li><a href="pages/game/index.html">Game</a></li>
+        </ul>
+      </li>
+      <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Members<span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="pages/present_members.html">Present</a></li>
+          <li role="separator" class="divider"></li>
+          <li><a href="pages/past_members.html">Past</a></li>
+        </ul>
+      </li>
+      <li><a href="pages/gallery/index.html">Gallery</a></li>
+      <li><a href="pages/sandbox/index.html">Sandbox</a></li>
+      <li><a href="http://progfest.calstatela.edu:8080/progfest/">Progfest</a></li>
+      <li><a href="pages/tutoring.html">Tutoring</a></li>
+      <li><a href="pages/contact.html">Contact</a></li>
+    </ul>
+
+    <ul class="nav navbar-nav navbar-right show-for-large-up">
+      <li><a class="navbar-brand" href="https://www.facebook.com/acm.calstatela" target="_blank">
+        <img alt="facebook" src="img/social_media/facebook-logo-white.png" class="logo">
+      </a></li>
+      <li><a class="navbar-brand" href="https://instagram.com/calstatela_acm/" target="_blank">
+        <img alt="instagram" src="img/social_media/instagram-logo-white.png" class="logo">
+      </a></li>
+    </ul>
+  </div><!-- /.navbar-collapse -->
+</div>
+</nav>
+<!-- end navbar -->
+
+<div class="container">
+  <div class="row">
+    <section class="col-lg-12">
+      <h1>Cal State L.A. ACM News Feed:</h1>
+      <h4>
+        <ul type="square">
+          <li>First</li>
+          <li>Second</li>
+        </ul>
+      </h4>
+
+      <div class="row">
+
+        <!-- mail chimp sign up form-->
+
+      </div>
+
+    </section>
+  </div>
+</div>
+
+<div class="container">
+  <p></p>
+</div>
+
+<div class="container">
+
+  <img src="img/backdrop.jpg" alt="Palm Trees" id="backdrop">
+
+</div>
+
+<!-- begin footer -->
+<div class="container bottom center">
+  <div class="row">
+    <div class="col-xs-*">
+      <div class="hr"></div>
+      <p class="text-center">
+        Made with <span class="glyphicon glyphicon-heart" aria-hidden="true"></span> by the members of Cal State L.A. Association for Computing Machinery <br>
+        &copy; 2015 Cal State L.A. ACM. All rights reserved.
+      </p>
     </div>
+  </div>
+</div>
+<!-- end footer -->
 
-    <footer>
-      <hr>
-      <small>Made with <span class="glyphicon glyphicon-heart" aria-hidden="true"></span> by the members of Cal State L.A. Association for Computing Machinery <br>
-        &copy; 2015 Cal State L.A. ACM. All rights reserved.</small>
-      </footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
-
-    </div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-
-  </body>
-  </html>
+</body>
+</html>
