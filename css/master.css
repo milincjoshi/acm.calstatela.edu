@@ -1,5 +1,10 @@
 * {
   font-family: 'Ubuntu', sans-serif;
+  font-size: 15px;
+}
+
+h1 {
+  font-family: 'Ubuntu', sans-serif;
 }
 
 body {
@@ -15,7 +20,7 @@ body {
   padding: 10px;
 }
 
-#backdrop {
+.backdrop {
   width: 100%;
   height: auto;
   border: 2px solid black;
@@ -49,13 +54,52 @@ body {
   width: 100%;
 }
 
-/* .center {
-  text-align: center;
-} */
-
 .hr {
   width: 80%;
   height: 2px;
   background-color: #E0E0E0;
   margin: 10px  auto;
+}
+
+.black-hr {
+  width: 80%;
+  height: 2px;
+  background-color: #000000;
+  margin: 10px  auto;
+}
+
+.margin-top-30 {
+  margin-top: 30px;
+}
+
+.margin-bottom-30 {
+  margin-bottom: 30px;
+}
+
+.margin-top-15 {
+  margin-top: 15px;
+}
+
+.col-centered {
+  float: none;
+  margin: 0 auto;
+}
+
+.icon {
+  height: 50px;
+  width: 50px;
+}
+
+.size-20-font {
+  font-size: 20px;
+}
+
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
+.bold {
+  font-weight: bold;
 }
